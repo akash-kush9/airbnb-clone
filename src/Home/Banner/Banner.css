@@ -1,0 +1,47 @@
+.banner{
+    
+    background:    center center
+                         url('https://cms.qz.com/wp-content/uploads/2019/03/nice-hotel-room.jpg?quality=75&strip=all&w=1600&h=900&crop=1'),  
+                         linear-gradient(to bottom, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5) );
+    height:50vh;
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+.banner__info{
+    background-color: black;
+    color:white;
+    padding-top: 25vh;
+    padding-right: 50px ;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width:300px
+}   
+
+.banner__info > button{
+    background-color: #ff7779;
+    color:white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}   
+.banner__info > button:hover{
+    background-color:white;
+    color: #ff7779;
+}  
+.banner__info > h5 {
+    margin-top: 10px;
+}
+.banner__searchButton{
+    color: #ff7779 !important;
+    background-color:white  !important;
+    text-transform: inherit  !important;
+    font-weight: 600 !important;
+}
+
+.banner__search{
+    flex-direction: column !important;
+    display:flex !important;
+    
+}
+

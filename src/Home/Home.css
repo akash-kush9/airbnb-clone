@@ -1,0 +1,13 @@
+/* .home{
+    
+} */
+.home__section{
+    display:flex;
+    padding:30px;
+    overflow-y: scroll;
+}
+.home__sectionProducts{
+    display:flex;
+    padding:30px;
+    overflow-x: scroll;
+}

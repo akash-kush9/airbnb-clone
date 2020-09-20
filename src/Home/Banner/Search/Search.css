@@ -1,0 +1,64 @@
+.search{
+    position:absolute;
+    top:35px;
+    left:25%;
+    width:100vw;
+}
+
+.search > button {
+    background-color: #ff7779;
+    color:white;
+    text-transform: inherit !important;
+    border-radius : 20px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.search > h2 {
+    background-color: lightsteelblue;
+    display: flex;
+    width: 559px;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    position: absolute;
+    top:380px;
+    left:0;
+}
+
+
+.search > input {
+    width: 559px;
+    padding:10px;
+    position:absolute;
+    left:0;
+    height:30px;
+    top:430px;
+    border : none;
+}
+.search > input:focus {
+    outline-width: 0;
+}
+
+.search > button {
+    position:absolute;
+    left:0;
+    top:480px;
+    text-transform : inherit !important;
+    background-color: #ff7779;
+    color:white;
+    width:579px;
+}
+
+.search > button:hover {
+    background-color: #ff7779;
+    color:white;
+}

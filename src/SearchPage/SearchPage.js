@@ -1,7 +1,7 @@
 import React from 'react'
 import './SearchPage.css'
 import {Button} from '@material-ui/core'
-
+import SearchResult from './SearchResult/SearchResult'
 const SearchPage = () => {
     return (
         <div className='searchPage'>
@@ -27,7 +27,15 @@ const SearchPage = () => {
                 <Button variant="outlined">
                     More filters
                 </Button>
-                
+                <SearchResult
+                        img = 'https://i.pinimg.com/originals/43/e3/76/43e37654b0146741bff4b49fe5c2ccac.jpg' 
+                        location = 'tokyo' 
+                        title = 'Solo leveling' 
+                        description = 'Welcome to the lore of Solo leveling' 
+                        star = '4.5' 
+                        price = 'Rs.700/ night' 
+                        total = '$1500 total' 
+                />
             </div>
         </div>
     )
